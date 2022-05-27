@@ -1,0 +1,157 @@
+/* Général */
+
+* {
+    padding: 0px;
+    margin: 0;
+    position: static;
+}
+
+.container {
+    width: auto;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(38, 35, 41);
+    height: 100px;
+    border-bottom: 1px solid rgba(232, 223, 223, 0.872);
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+h2  {
+    font-size: 18px;
+    padding-bottom: 5px; 
+}
+h1 h2 {
+    font-family: "Crete Round", sans-serif;
+}
+
+.bleu {color: rgba(19, 34, 144, 0.945)}
+.blanc {color: rgba(232, 223, 223, 0.872)}
+.rouge {color: rgb(174, 13, 13)}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-size: 15px;
+}
+li {
+    list-style: none;
+}
+
+/* Header */
+
+
+
+h1, h2 { text-align: center;}
+
+.nav1 {
+    float:right;
+    margin: 0px 0px;
+    font-family: "crete round", sans-serif;
+    font-size: 13px;
+    padding: 20px 15px;
+    border-left: 1px solid rgba(232, 223, 223, 0.872);
+    height: 61px;
+    border-radius: 10px;
+}
+
+header nav ul li a { 
+    color: rgba(232, 223, 223, 0.872);
+}
+
+.logo {
+    width: 60px;
+    float: left;
+    margin: 5px 0 30px 25px;
+    border-right: 1px solid rgba(232, 223, 223, 0.872);
+}
+
+/* JE VEUX METTRE UNE BORDER EN BAS DU HEADER */
+
+/* Pageprincipale */
+
+/* JE N ARRIVE PAS A CENTRER LES 3 ARTICLES */
+
+.pageprincipale {
+height: 650px;
+background-color: rgb(38, 35, 41);
+width: auto;
+border-bottom: 1px solid rgba(232, 223, 223, 0.872);
+border-radius: 10px;
+}
+
+.articles{
+    margin: 0 90px 50px 0px;
+    
+}
+.container2 {
+    padding: 250px 200px 50px 200px;
+}
+article {
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid;
+
+
+}
+
+.bouton {
+    height: 30px;
+    border-radius: 3px;
+    color: rgb(36, 34, 34);
+    border: 1px dashed black;
+    display: block;
+    margin-top: 250px;
+    margin-left: 70px;
+    padding: 0 3px;
+    font-family: arial;
+    background-color: bisque;
+    
+}
+.bouton:hover {
+    background-color: rgb(131, 131, 201);
+}
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+}
+.contactect {
+    margin-right: 550px;
+}
+
+.nav2 {
+    float:right;
+    margin: 0px 10px;
+    font-family: "crete round", sans-serif;
+    font-size: 13px;
+    padding: 20px 10px;
+    border-left: 1px solid rgba(232, 223, 223, 0.872);
+    height: 61px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.rs   {
+    float: left;
+    background-color: blue;
+}
+
+.riendutout {
+    background-color: red;
+    float: right;
+    height: 100px;
+    width: 200px;
+    margin-left: 300px;
+}
+/* COMMENT FAIRE POUR ADAPTER A LA TAILLE DE L'ECRAN? */
