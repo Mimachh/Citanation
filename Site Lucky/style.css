@@ -81,7 +81,7 @@ header nav ul li a {
 
 .pageprincipale {
 height: 650px;
-background-color: rgb(2,0,36);
+background-color: black;
 background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 51%, rgba(38,125,143,1) 95%);
 width: auto;
 border-bottom: 1px solid rgba(232, 223, 223, 0.872);
@@ -141,6 +141,10 @@ footer {
     background-color:white;
     padding-top:25px;
     text-align: center;
+    border-bottom: 1px solid blueviolet;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
 }
 
 
@@ -152,16 +156,21 @@ footer .nav2 ul li a {
 
 .rs   {
     float: left;
-    background-color: blue;
+    background: rgb(19,34,144);
+background: linear-gradient(45deg, rgba(19,34,144,0.9682072658164829) 47%, rgba(19,34,144,0.9) 78%, rgba(144,19,52,0.9) 97%);
     width: 33.3%;
     height: 100px;
+    border-radius: 10px;
 }
 
 .riendutout {
-    background-color: red;
- 
+    background: rgb(174,13,13);
+    background: linear-gradient(45deg, rgba(174,13,13,1) 22%, rgba(110,6,6,1) 73%);
     height: 100px;
     width: 33.3%;
+    border-radius: 10px;
    
 }
 /* COMMENT FAIRE POUR ADAPTER A LA TAILLE DE L'ECRAN? */
+
+
